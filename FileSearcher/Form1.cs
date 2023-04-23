@@ -62,7 +62,7 @@ namespace FileSearcher
             }
             catch (UnauthorizedAccessException)
             {
-                MessageBox.Show("Access to the file was denied, try to change the directory");
+                MessageBox.Show("Access to the file was denied, try to change the directory", "UnauthorizedAccessException");
             }
         }
 
